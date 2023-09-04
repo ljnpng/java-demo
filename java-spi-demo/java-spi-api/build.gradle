@@ -1,0 +1,10 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'me.lyou'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}

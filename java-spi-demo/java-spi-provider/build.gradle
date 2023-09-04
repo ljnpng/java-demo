@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.lyou'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(path: ':java-spi-demo:java-spi-api')
+}
+
+tasks.register('runSpiMain', JavaExec) {
+    mainClass = 'me.lyou.spi.provider.SpiMain'
+    classpath = sourceSets.main.runtimeClasspath
+}
