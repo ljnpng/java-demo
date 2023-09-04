@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -12,6 +13,7 @@
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-api" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-app" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-provider" />
+            <option value="$PROJECT_DIR$/mysql-jdbc-demo" />
           </set>
         </option>
       </GradleProjectSettings>

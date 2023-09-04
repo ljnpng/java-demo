@@ -5,4 +5,6 @@ include 'java-spi-demo:java-spi-provider'
 findProject(':java-spi-demo:java-spi-provider')?.name = 'java-spi-provider'
 include 'java-spi-demo:java-spi-app'
 findProject(':java-spi-demo:java-spi-app')?.name = 'java-spi-app'
+include 'mysql-jdbc-demo'
+include 'mysql-jdbc-demo'
 

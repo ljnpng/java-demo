@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.lyou'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    compileOnly('org.projectlombok:lombok:1.18.28')
+    annotationProcessor('org.projectlombok:lombok:1.18.28')
+
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    dockerComposeUp
+    useJUnitPlatform()
+    dockerComposeDown
+}
+
+
+// 启动mysql容器
+tasks.register('dockerComposeUp', Exec) {
+    workingDir 'docker'
+    commandLine 'docker', 'compose', 'up', '-d'
+}
+
+
+// 停止mysql容器
+tasks.register('dockerComposeDown', Exec) {
+    workingDir 'docker'
+    commandLine 'docker', 'compose', 'down', '-v'
+}
