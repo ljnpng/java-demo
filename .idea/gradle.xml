@@ -9,11 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/java-mysql-demo" />
+            <option value="$PROJECT_DIR$/java-mysql-demo/mysql-jdbc-demo" />
             <option value="$PROJECT_DIR$/java-spi-demo" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-api" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-app" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-provider" />
-            <option value="$PROJECT_DIR$/mysql-jdbc-demo" />
           </set>
         </option>
       </GradleProjectSettings>
