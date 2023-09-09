@@ -6,4 +6,6 @@ findProject(':java-spi-demo:java-spi-provider')?.name = 'java-spi-provider'
 include 'java-spi-demo:java-spi-app'
 findProject(':java-spi-demo:java-spi-app')?.name = 'java-spi-app'
 include 'java-db-demo:mysql-jdbc-demo'
+include 'java-db-demo:springboot-hikaricp-h2'
+findProject(':java-db-demo:springboot-hikaricp-h2')?.name = 'springboot-hikaricp-h2'
 
