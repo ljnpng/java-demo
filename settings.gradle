@@ -8,4 +8,6 @@ findProject(':java-spi-demo:java-spi-app')?.name = 'java-spi-app'
 include 'java-db-demo:mysql-jdbc-demo'
 include 'java-db-demo:springboot-hikaricp-h2'
 findProject(':java-db-demo:springboot-hikaricp-h2')?.name = 'springboot-hikaricp-h2'
+include 'java-spring:java-spring-aop'
+findProject(':java-spring:java-spring-aop')?.name = 'java-spring-aop'
 

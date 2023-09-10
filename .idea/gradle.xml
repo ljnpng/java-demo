@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-api" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-app" />
             <option value="$PROJECT_DIR$/java-spi-demo/java-spi-provider" />
+            <option value="$PROJECT_DIR$/java-spring" />
+            <option value="$PROJECT_DIR$/java-spring/java-spring-aop" />
           </set>
         </option>
       </GradleProjectSettings>
