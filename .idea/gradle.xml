@@ -10,14 +10,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/java-db-demo" />
-            <option value="$PROJECT_DIR$/java-db-demo/mysql-jdbc-demo" />
             <option value="$PROJECT_DIR$/java-db-demo/springboot-hikaricp-h2" />
-            <option value="$PROJECT_DIR$/java-spi-demo" />
-            <option value="$PROJECT_DIR$/java-spi-demo/java-spi-api" />
-            <option value="$PROJECT_DIR$/java-spi-demo/java-spi-app" />
-            <option value="$PROJECT_DIR$/java-spi-demo/java-spi-provider" />
             <option value="$PROJECT_DIR$/java-spring" />
-            <option value="$PROJECT_DIR$/java-spring/java-spring-aop" />
+            <option value="$PROJECT_DIR$/java-spring/java-spring-event" />
+            <option value="$PROJECT_DIR$/java-spring/java-spring-rabbitmq" />
           </set>
         </option>
       </GradleProjectSettings>
